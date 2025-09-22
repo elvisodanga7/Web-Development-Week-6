@@ -1,0 +1,36 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+header {
+  background: #0077cc;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  border-radius: 8px;
+}
+
+section {
+  margin: 20px 0;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+button {
+  padding: 8px 12px;
+  margin-top: 8px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.dark-theme {
+  background-color: #222;
+  color: #eee;
+}
+
+.dark-theme header {
+  background: #444;
+}

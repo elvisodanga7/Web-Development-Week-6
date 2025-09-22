@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Interactive Web Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>My Interactive Web Page</h1>
+    <nav>
+      <button id="toggleThemeBtn">Toggle Theme</button>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Interactive Section 1 -->
+    <section>
+      <h2>Fun Counter</h2>
+      <p>Click the button to increase the counter!</p>
+      <button id="counterBtn">Click Me</button>
+      <p id="counterDisplay">Counter: 0</p>
+    </section>
+
+    <!-- Interactive Section 2 -->
+    <section>
+      <h2>Random Quote Generator</h2>
+      <button id="quoteBtn">Generate Quote</button>
+      <p id="quoteDisplay">Click the button to see a random quote.</p>
+    </section>
+
+    <!-- Form Section -->
+    <section>
+      <h2>Custom Contact Form</h2>
+      <form id="contactForm">
+        <label for="username">Username:</label>
+        <input type="text" id="username"><br><br>
+
+        <label for="email">Email:</label>
+        <input type="text" id="email"><br><br>
+
+        <label for="message">Message:</label>
+        <textarea id="message"></textarea><br><br>
+
+        <button type="submit">Submit</button>
+      </form>
+      <p id="formFeedback"></p>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
